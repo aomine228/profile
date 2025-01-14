@@ -88,51 +88,23 @@ ul li {
     font-size: 20px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
     .container {
-        max-width: 90%;
-        padding: 15px;
+        padding: 10px;
     }
-}
-
-@media (max-width: 992px) {
-    ul {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
-    .profile-photo {
-        width: 130px;
-        height: 130px;
-    }
-}
-
-@media (max-width: 768px) {
     .profile-photo {
         width: 120px;
         height: 120px;
     }
     ul {
         grid-template-columns: 1fr;
-        gap: 8px;
+        gap: 5px;
     }
     .social-links a {
         font-size: 14px;
-        gap: 4px;
-    }
-}
-
-@media (max-width: 576px) {
-    .container {
-        padding: 10px;
-    }
-    .profile-photo {
-        width: 100px;
-        height: 100px;
-    }
-    .social-links a {
-        font-size: 12px;
         gap: 3px;
     }
     .social-links a i {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
