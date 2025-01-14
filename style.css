@@ -66,7 +66,6 @@ ul li {
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    transition: all;
 }
 
 .telegram {
@@ -77,7 +76,6 @@ ul li {
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    transition: all;
 }
 
 .social-links a:hover {
