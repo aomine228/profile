@@ -1,0 +1,110 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.skills {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+ul li {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    margin: 0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.instagram {
+    color: #e051e0;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: all;
+}
+
+.telegram {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: all;
+}
+
+.social-links a:hover {
+    color: #005582;
+
+}
+.social-links a i {
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+    ul {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .social-links a {
+        font-size: 14px;
+        gap: 3px;
+    }
+    .social-links a i {
+        font-size: 18px;
+    }
+}
